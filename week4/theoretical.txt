@@ -1,0 +1,77 @@
+Q1: Explain how AI-driven code generation tools (e.g., GitHub Copilot) reduce development time. What are their limitations?
+
+Q2: Compare supervised and unsupervised learning in the context of automated bug detection.
+
+Q3: Why is bias mitigation critical when using AI for user experience personalization? 
+
+
+
+
+
+
+
+### **Q1: Explain how AI-driven code generation tools (e.g., GitHub Copilot) reduce development time. What are their limitations?**
+
+#### **How they reduce development time:**
+
+1. **Autocomplete & Suggestions**: AI tools like GitHub Copilot offer real-time code suggestions, reducing the need for developers to write boilerplate code manually.
+2. **Documentation Summarization**: These tools can interpret and auto-generate code snippets based on comments, speeding up development.
+3. **Error Reduction**: By suggesting commonly used and tested code patterns, they help reduce syntax and logic errors.
+4. **Learning Support**: New developers can explore how code is structured or which APIs to use by seeing generated examples.
+5. **Rapid Prototyping**: Developers can iterate on features faster by quickly generating and testing ideas.
+
+#### **Limitations:**
+
+* **Code Quality and Security**: AI-generated code may lack optimization, include vulnerabilities, or not follow best practices.
+* **Context Limitation**: These tools often work within a limited scope (e.g., one file or function) and may not understand the broader architecture.
+* **Over-Reliance**: Developers might accept suggestions without fully understanding them, leading to technical debt.
+* **Licensing and IP Risks**: Some outputs may resemble copyrighted code, raising legal concerns.
+* **Inadequate for Complex Logic**: Tasks requiring deep business logic or custom algorithms often require human oversight and design.
+
+---
+
+### **Q2: Compare supervised and unsupervised learning in the context of automated bug detection.**
+
+| Feature                          | **Supervised Learning**                                             | **Unsupervised Learning**                                                          |
+| -------------------------------- | ------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
+| **Definition**                   | Uses labeled datasets (e.g., code labeled as buggy or clean).       | Works with unlabeled code to find patterns or anomalies.                           |
+| **Application in Bug Detection** | Trains models to classify code as buggy or not based on known bugs. | Detects unusual patterns in code that may indicate bugs (e.g., anomaly detection). |
+| **Example Techniques**           | Classification (e.g., logistic regression, random forests).         | Clustering, anomaly detection (e.g., k-means, isolation forest).                   |
+| **Accuracy**                     | Typically more accurate when labeled data is available.             | Useful where labeled bug data is scarce or unavailable.                            |
+| **Limitations**                  | Needs a large labeled dataset, which is time-consuming to create.   | May produce false positives due to lack of context.                                |
+
+**Summary**:
+Supervised learning excels when historical bug data is available, allowing for precise bug prediction. Unsupervised learning is valuable when no labels exist, helping discover unknown or emerging bug patterns.
+
+---
+
+### **Q3: Why is bias mitigation critical when using AI for user experience personalization?**
+
+#### **Reasons Bias Mitigation is Critical:**
+
+1. **Fairness and Inclusion**: AI personalization that favors certain demographics (e.g., based on age, gender, or location) can alienate or exclude users, leading to unfair experiences.
+
+2. **Trust and Transparency**: Biased personalization may promote content that reinforces stereotypes, harming user trust and damaging brand reputation.
+
+3. **Legal and Ethical Compliance**: Many jurisdictions require algorithms to comply with anti-discrimination laws (e.g., in job or content recommendations).
+
+4. **User Satisfaction and Retention**: Personalized content that reflects a user's true preferences and avoids bias leads to better engagement and loyalty.
+
+5. **Feedback Loops**: Biased systems can amplify their own errors (e.g., only recommending similar content), reinforcing bias and reducing diversity in the experience.
+
+#### **Example**:
+
+If an AI assumes women prefer certain product categories based on historical purchase data, it may stop recommending tech products to women—limiting both diversity of options and potential revenue.
+
+---
+
+
+
+
+
+
+
+
+
+
+
